@@ -4,45 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  href="/styles/output.css" rel="stylesheet"/>
-    <title>My Portfolio</title>
+    <title>Projects</title>
 </head>
 <body>
     <!-- Nav Menu -->
-    <nav class="flex justify-between px-28 py-4 w-full">
-        <img src="/images/logo.png" alt="">
+    <nav class="flex justify-between mx-28 px-6 py-3 rounded-lg my-4 bg-text">
+        <a href="./index.html"><img src="/images/logo.png" alt="" class="border border-pink rounded-full"></a>
         <ul class="flex justify-start gap-6 my-auto">
             <li class="text-sm text-white font-medium"><a href="./about.html">About Me</a></li>
-            <li class="text-sm text-white font-medium"><a href="./projects.html">Projects</a></li>
+            <li class="text-sm text-white font-medium border-b-2 border-pink borderw mb-2"><a href="./projects.html">Projects</a></li>
             <li class="text-sm text-white font-medium"><a href="./contact.html">Contacts</a></li>
         </ul>
     </nav>
-    <!-- About Me -->
-    <div class="px-28 py-4 w-full mt-8">
-        <div class="w-1/2">
-            <span class="m-0 text-pink font-medium text-[20px] uppercase tracking-widest">frontend developper</span>
-            <h1 class="m-0 text-[70px] text-text font-bold leading-[1]">Hi, my name is <br> Saratou Diallo</h1>
-            <p class="text-xl text-text my-8 font-light">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat impedit laudantium cumque aspernatur, ducimus minus et quasi dolores laboriosam quia repellendus dignissimos reprehenderit saepe facilis dolorum dolore? Fugit, dolorum aperiam.
-            </p>
-            <div class="flex justify-start gap-5">
-                <button type="button" class="px-5 py-2 text-text text-lg bg-pink rounded-md my-auto">Projects</button>
-                <button type="button" class="px-5 py-2 text-pink text-lg bg-transparent border border-pink rounded-md my-auto">LinkedIn</button>
-            </div>
-        </div>
-        <div class="absolute top-0 right-0 -z-10">
-            <img src="/images/pink-bg.png" alt="me">
-        </div>
-    </div>
+
     <!-- Projects -->
     <div class="grid px-28 py-4 w-full mt-12 justify-center">
-        <div class="mb-16 grid justify-center">
-            <h2 class="w-fit text-[30px] font-bold text-text m-auto">Projects</h2>
-            <hr class="w-12 m-auto border-none h-1 bg-pink">
+        <div class="mb-16 grid justify-center gap-4">
+            <div class="">
+                <h2 class="w-fit text-[30px] font-bold text-text m-auto">Projects</h2>
+                <hr class="w-12 m-auto border-none h-1 bg-pink">
+            </div>
+            <p class="text-lg font-light text-text m-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente nisi debitis perferendis nemo eaque nam totam officia quo tenetur quasi.</p>
         </div>
-        <a href="./projects.html" class="text-sm text-pink hover:underline font-medium w-full text-right py-4">View all</a>
         <div class="grid grid-cols-3 justify-center gap-5">
             <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -51,10 +37,9 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
-            <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -63,10 +48,9 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
-            <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -75,10 +59,9 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
-            <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -87,10 +70,9 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
-            <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -99,10 +81,9 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
-            <!-- Project Card -->
-            <div class="grid gap-6 bg-white border border-pink rounded-lg px-12 py-8 w-fit">
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
                 <div class="flex justify-start flex-wrap gap-2">
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
                     <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
@@ -111,7 +92,29 @@
                     <h3 class="text-xl text-text font-bold">Project Name</h3>
                     <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
                 </div>
-                <button class="bg-transparent border border-pink rounded-lg text-pink font-bold text-sm px-3 py-2 w-fit">View project</button>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
+            </div>
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
+                <div class="flex justify-start flex-wrap gap-2">
+                    <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
+                    <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
+                </div>
+                <div class="grid gap-2">
+                    <h3 class="text-xl text-text font-bold">Project Name</h3>
+                    <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
+                </div>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
+            </div>
+            <div class="grid gap-6 bg-transparent border border-gray-200 rounded-lg px-12 py-8 w-fit">
+                <div class="flex justify-start flex-wrap gap-2">
+                    <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">html/css</span>
+                    <span class="border border-text text-text text-xs font-light rounded-full uppercase px-2 py-1">php/laravel</span>
+                </div>
+                <div class="grid gap-2">
+                    <h3 class="text-xl text-text font-bold">Project Name</h3>
+                    <p class="text-text text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ut quod reiciendis fuga laudantium dolor, earum recusandae eos. Totam, maiores.</p>                
+                </div>
+                <a href="./single-project.html" class="bg-pink rounded-lg text-text text-sm px-3 py-2 w-fit">View project</a>
             </div>
         </div>
     </div>
